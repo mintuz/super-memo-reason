@@ -1,18 +1,15 @@
-# Basic Reason Template
+# Super Memo Reason
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
+I am currently playing around with ReasonML and wanted an algorithm to practice against.
+
+I decided on implementing super memo v2, a spaced reptition algorithm used for recalling information. (https://www.supermemo.com/en/archives1990-2015/english/ol/sm2).
 
 # Build
 ```
+npm install
 npm run build
+npm run test
 ```
-
-# Build + Watch
-
-```
-npm run start
-```
-
 
 # Editor
 If you use `vscode`, Press `Windows + Shift + B` it will build automatically
